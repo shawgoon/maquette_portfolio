@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>HOME</li>
+                </a>
+                <a href="#about">
+                    <li><i class="fa-solid fa-user-large"></i>ABOUT</li>
+                </a>
+                <a href="#portfolio">
+                    <li><i class="fa-solid fa-book"></i>PORTFOLIO</li>
+                </a>
+                <a href="#contact">
+                    <li><i class="fa-solid fa-envelope"></i>CONTACT</li>
+                </a>
+            </ul>
+            <form action="" methode="post">
+                <input class="hide" type="text" name="search">
+                <button class="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </nav> 
+        <div id="headerImg">
+            <h1>MY WEBSITE LOGO</h1>
+        </div> 
+    </header>
+    <main>
+        <section id="about">
+            <div>
+                <h2>ABOUT ME</h2>
+                <p class=" italic">I love photography</p>
+                <p class="discribe">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="card">
+                <figure>
+                    <figcaption>
+                        <p><i class="fa-solid fa-user-large"></i>My Name</p>
+                        <img src="./assets/img/avatar_hat.jpg" alt="">
+                    </figcaption>
+                </figure>
+                <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="progressBar">
+                <h3>Im really good at:</h3>
+                <div class="container">
+                    <p><i class="fa-solid fa-camera"></i>Photography</p>
+                    <div class="progressbar-wrapper">
+                        <div aria-label="downloading" class="progressbar photography">90%</div>
+                    </div>
+                    <p><i class="fa-solid fa-laptop"></i>Web Design</p>
+                    <div class="progressbar-wrapper">
+                        <div aria-label="downloading" class="progressbar web">85%</div>
+                    </div>
+                    <p><i class="fa-solid fa-image"></i>Photoshop</p>
+                    <div class="progressbar-wrapper">
+                        <div aria-label="downloading" class="progressbar photoshop">75%</div><!--downloaded-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio"></section>
+        <section id="contact"></section>
+    </main>
+    <footer></footer>
+</body>
+</html>
