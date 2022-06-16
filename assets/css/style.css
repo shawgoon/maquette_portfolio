@@ -77,6 +77,7 @@ h3,
 }
 .italic{
     font-style: italic;
+    font-size: 0.7em;
 }
 #card{
     display: flex;
@@ -117,7 +118,8 @@ h3,
     padding: 0.5em;
     text-align: center;
     font-size: 15px;
-  }
+    /* transition: all 2s; */
+}
 .progressbar[aria-label="downloading"] {
     background-color: var(--progress);
  }
@@ -161,9 +163,9 @@ h3,
     height: 30vh;
     background-image: url("../img/parallax2.jpg");
     background-position: 50% -250px;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,12 +204,116 @@ h3,
     height: 30vh;
     background-image: url("../img/parallax3.jpg");
     background-position: 50% -250px;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5em 0; 
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+.info{
+    width: 70%;
+    display: flex;
+    margin: 2em auto;
+}
+.map{
+    width: 30%;
+}
+.map img{
+    width: 100%;
+    border-radius: 0.2em;
+}
+.coordinate{
+    width: 70%;
+    padding-left: 1em;
+}
+.infoContact p{
+    margin: 0.5em;
+    font-size: 0.8em;
+}
+.infoContact p:last-child{
+    margin-top: 2em;
+}
+.infoContact i{
+    padding-right: 1em;
+}
+.infoContact p:last-child i{
+    padding-right: 0;
+}
+
+/* formulaire */
+.form{
+    width: 70%;
+    margin: 0 auto;  
+}
+#contact form{
+    width: 70%;
+    margin-left: 30%;
+    padding-left: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    right: 0;
+    box-sizing: border-box;
+}
+.input{
+    width: 49%;
+}
+#contact input{
+    width: 100%;
+    box-sizing: border-box;
+}
+#contact input{
+    padding: 0.7em;
+}
+.inputM{
+    width: 100%;
+    margin-top:0.5em;
+}
+#contact #send{
+    width:fit-content;
+    background-color: black;
+    color:white;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    border: none;
+}
+#contact .send{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* footer */
+
+footer{
+    margin-top: 8em;
+    background-color: #616161;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.returnTop{
+    margin: 1em 0;
+    padding: 0.8em 1em;
+    background-color: white;
+    color: #616161;
+    border: none;
+    cursor: pointer;
+    /* display: none; */
+}
+.returnTop a{
+    text-decoration: none;
+}
+.social i{
+    color:white;
+}
+footer p{
+    color: white;
+    margin: 1em;
 }
 

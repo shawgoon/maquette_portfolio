@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,11 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="./assets/js/master.js" defer></script>
+    <script src="./assets/js/master.js" type="module" defer></script>
 </head>
+
 <body>
-    <header>
+    <header id="home">
         <nav>
             <ul>
                 <a href="#">
@@ -32,17 +34,24 @@
                 <input class="hide" type="text" name="search">
                 <button class="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
-        </nav> 
+        </nav>
         <div id="headerImg">
             <h1>MY WEBSITE LOGO</h1>
-        </div> 
+        </div>
     </header>
     <main>
         <section id="about">
             <div>
                 <h2>ABOUT ME</h2>
                 <p class="italic">I love photography</p>
-                <p class="discribe">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="discribe">We have created a fictional "personal" website/blog, and our fictional character is
+                    a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div id="card">
                 <figure>
@@ -51,7 +60,13 @@
                         <img src="./assets/img/avatar_hat.jpg" alt="">
                     </figcaption>
                 </figure>
-                <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="progressBar">
                 <h3>Im really good at:</h3>
@@ -66,7 +81,8 @@
                     </div>
                     <p><i class="fa-solid fa-image"></i>Photoshop</p>
                     <div class="progressbar-wrapper">
-                        <div aria-label="downloading" class="progressbar photoshop">75%</div><!--downloaded-->
+                        <div aria-label="downloading" class="progressbar photoshop">75%</div>
+                        <!--downloaded-->
                     </div>
                 </div>
             </div>
@@ -90,7 +106,9 @@
                     <p>Meetings</p>
                 </div>
             </div>
-            <div id="portfolioImg"><h2 style="color:white;letter-spacing: 0.3em;">PORTFOLIO</h2></div>
+            <div id="portfolioImg">
+                <h2 style="color:white;letter-spacing: 0.3em;">PORTFOLIO</h2>
+            </div>
             <h3>MY WORK</h3>
             <p class="italic">Here are some of my latest lorem work ipsum tipsum.</p>
             <p class="italic">Click on the images to make them bigger</p>
@@ -110,9 +128,60 @@
         </section>
 
         <section id="contact">
-            <div id="contactImg"><h2 style="color:white;letter-spacing: 0.3em;">CONTACT</h2></div>
+            <div id="contactImg">
+                <h2 style="color:white;letter-spacing: 0.3em;">CONTACT</h2>
+            </div>
+            <h3>WHERE | WORK</h3>
+            <P class="italic">I'd love your feedback!</P>
+            <div class="info">
+                <div class="map"><img src="./assets/img/map.jpg" alt=""></div>
+                <div class="coordinate">
+                    <div class="infoContact">
+                        <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+                        <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                        <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+                        <p>Swing by for a cup of <span><i class="fa-solid fa-mug-saucer"></i></span>, or leave me a
+                            note:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <form method="post" action="">
+                    <div class="input">
+                        <input type="text" placeholder="Name" value="">
+                    </div>
+                    <div class="input">
+                        <input type="email" placeholder="Email" value="">
+                    </div>
+                    <div class="inputM">
+                        <input type="text" placeholder="Message" value="">
+                    </div>
+                    <div class="send">
+                        <button id="send" type="submit"><i class="fa-solid fa-paper-plane" style="color:white;"></i>
+                            SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+
+
         </section>
     </main>
-    <footer></footer>
+    <footer>
+
+        <button class="returnTop">
+            <a href="#home"><i class="fa-solid fa-arrow-up" style="color:#616161"></i> To the top</a>
+        </button>
+        <div class="social">
+            <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-snapchat-square"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <p>Powered by Alban</p>
+        </div>
+    </footer>
 </body>
+
 </html>
